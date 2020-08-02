@@ -1,0 +1,88 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.link{
+	cursor: pointer;
+}
+
+
+body {
+	background-image: url('https://cdn.hipwallpaper.com/i/44/92/DjoFAH.jpg');
+	background-size: 100% 100%;
+
+}
+
+
+h1	{
+	text-align: center;
+	color: white;
+}
+
+#comment_container {
+	text-align: center;
+}
+
+#cmnts {
+	margin: auto;
+	width: 50%;
+	height: 400px;
+	vertical-align: top;
+}
+
+#comments {
+
+	height: 200px;
+	width: 50%;
+}
+
+#sub {
+	margin-left: 393px;
+}
+
+#scrollbox {
+	width:500px;
+	height:300px;
+	line-height:3em;
+	overflow:scroll;
+	padding:5px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+#form {
+	padding-bottom: 50px;
+}
+
+hr {
+	padding-bottom: 50px;
+}
+
+#info {
+	text-align: center;
+	padding-bottom: 25px;
+	font-size: 18px;
+}
